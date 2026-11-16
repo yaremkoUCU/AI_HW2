@@ -11,7 +11,7 @@ date: 2026-11-16
 
 The goal of homework was to find and highlight eight classes of things (person, bicycle, car, van, truck, tricycle, bus, motor) in frames from given folders. I used and compared four detectors with one dataset: Faster R-CNN (two-stage), RetinaNet (one-stage, anchor-based), YOLO11 (anchor-free) and RT-DETR (query-based).
 
-Code: `code/HW2_full_notebook.ipynb`. W&B project: [hw2-visdrone-vid](https://forge.coreweave.com/wandb/mykhasiak-pn-ukrainian-catholic-university/hw2-visdrone-vid). All validation numbers are got with pycocotools on the 7 validation clips (571 frames, every 5th frame).
+Code: `code/HW2_full_notebook_Mykhasiak.ipynb`. W&B project: [hw2-visdrone-vid](https://forge.coreweave.com/wandb/mykhasiak-pn-ukrainian-catholic-university/hw2-visdrone-vid). All validation numbers are got with pycocotools on the 7 validation clips (571 frames, every 5th frame).
 
 ## 1. Data understanding and preprocessing
 
