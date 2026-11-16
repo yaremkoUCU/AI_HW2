@@ -5,6 +5,8 @@ course: Artificial Intelligence · UCU
 date: 2026-11-16
 ---
 
+**Note**: Because the Colab sessions crashed several times, the notebook in `code/` does not keep the printed outputs of every cell (for example the Faster R-CNN and RetinaNet training logs in sections 6 and 7). All final metrics used in this report are saved in `code/results/results_all.csv`, and the code of every experiment is in the notebook
+
 ## Introduction
 
 The goal of homework was to find and highlight eight classes of things (person, bicycle, car, van, truck, tricycle, bus, motor) in frames from given folders. I used and compared four detectors with one dataset: Faster R-CNN (two-stage), RetinaNet (one-stage, anchor-based), YOLO11 (anchor-free) and RT-DETR (query-based).
